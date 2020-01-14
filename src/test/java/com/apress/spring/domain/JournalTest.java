@@ -13,7 +13,6 @@ public class JournalTest {
         Journal journal = null;
 
         journal = Journal.builder()
-                    .id(100L)
                     .title("Washinton Post")
                     .created(new Date())
                     .summary("An american journal")
